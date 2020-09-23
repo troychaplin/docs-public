@@ -1,0 +1,2 @@
+# config
+Scripted Mac configs
