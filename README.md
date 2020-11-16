@@ -1,2 +1,3 @@
-# config
-Scripted Mac configs
+# Docs
+
+Document all the things.
