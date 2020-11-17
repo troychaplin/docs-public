@@ -10,6 +10,7 @@ Don't forget to save/export:
 
 - SSH keys
 - SFTP configs
+- Hosts file (`sudo vi /etc/hosts`)
 
 ## Git Push Issues
 
