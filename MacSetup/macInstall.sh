@@ -18,9 +18,7 @@ brew install git
 brew install composer
 brew install gulp-cli
 brew install node-sass
-brew tap mongodb/brew
-brew install mongodb-community
-brew cask install mongodb-compass
+brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install figma
 brew cask install sequel-pro
