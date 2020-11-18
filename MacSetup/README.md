@@ -10,7 +10,9 @@ Don't forget to save/export:
 
 - SSH keys
 - SFTP configs
-- Hosts file (`sudo vi /etc/hosts`)
+- Hosts file (`sudo vi /etc/hosts`) -- maybe not needed but just in case
+- vscode `settiongs.json`
+- Sequel Pro connection exports
 
 ## Git Push Issues
 
