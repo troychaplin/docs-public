@@ -13,6 +13,8 @@ Don't forget to save/export:
 - Hosts file (`sudo vi /etc/hosts`) -- maybe not needed but just in case
 - vscode `settiongs.json`
 - Sequel Pro connection exports
+- Remote desktop connections
+- Enpass
 
 ## Git Push Issues
 

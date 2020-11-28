@@ -18,7 +18,6 @@ brew install git
 brew install composer
 brew install gulp-cli
 brew install node-sass
-brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install figma
 brew cask install sequel-pro
