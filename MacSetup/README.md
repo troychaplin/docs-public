@@ -19,9 +19,8 @@ Don't forget to save/export:
 ## Git Push Issues
 
 ```
-git remote -v
-git remote remove origin
-git remote add origin git@github.com:user/repo.git
+git remote -v ; git remote remove origin
+git remote add origin git@github.com:troychaplin79/repo.git
 ```
 
 If issues persiste, also run `git push --set-upstream origin master`
