@@ -18,26 +18,17 @@ brew install git
 brew install composer
 brew install gulp-cli
 brew install node-sass
+
+# Mac Software
 brew cask install visual-studio-code
 brew cask install figma
 brew cask install sequel-pro
-brew cask install cyberduck
-
-# Communication Apps
-# brew cask install skype
-# brew cask install slack
-
-# Web Tools
+brew cask install postman
+brew cask install transmit
+brew cask install sourcetree
 brew cask install google-chrome
 brew cask install firefox
-brew cask install postman
-
-# Password Manager
+brew cask install microsoft-teams
 brew cask install enpass
-
-# Entertainment
 brew cask install spotify
-
-#Productivity 
-# brew cask install keepingyouawake
-# brew cask install rectangle
+brew cask install rectangle
