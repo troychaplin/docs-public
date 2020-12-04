@@ -5,14 +5,16 @@
 - [Initial Server Setup with Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04)
 - [How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04)
 - [How To Secure Apache with Let's Encrypt on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04)
+- [Upgrade PHP version to PHP 7.4 on Ubuntu](https://www.cloudbooklet.com/upgrade-php-version-to-php-7-4-on-ubuntu/)
 
 ## Caching
 
-- Coming soon
+- [How To Install and Secure Redis on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04#prerequisites)
 
 ## Libraries
 
-- Coming soon
+- [How To Install PHP Composer on Ubuntu 18.04 & 16.04](https://tecadmin.net/install-php-composer-on-ubuntu/)
+- [How To Install and Configure Postfix on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-18-04)
 
 ### Additional Libraries
 
