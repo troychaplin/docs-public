@@ -1,8 +1,5 @@
 !/bin/sh
 
-# Homebrew Script for OSX
-# To execute: save and `chmod +x ./macos-fresh-install.sh` then `./macos-fresh-install.sh`
-
 echo "Updating gems..."
 gem update
 

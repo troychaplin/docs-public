@@ -1,6 +1,6 @@
 # Homebrew Script for OSX
 
-To execute: save and `chmod +x ./macos-fresh-install.sh` then `./macos-fresh-install.sh`
+To execute: save and `chmod +x ./macInstall.sh` then `./macInstall.sh`
 
 ## Backups
 
@@ -29,4 +29,4 @@ If issues persiste, also run `git push --set-upstream origin master`
 This setup script was built referencing ideas from:
 
 - https://github.com/marceloglacial/macos-fresh-install
-- https://medium.com/@maxy_ermayank/developer-environment-setup-script-5fcb7b854acc
+- https://github.com/maxyermayank/developer-mac-setup
