@@ -23,3 +23,10 @@ git remote add origin git@github.com:troychaplin79/repo.git
 ```
 
 If issues persiste, also run `git push --set-upstream origin master`
+
+## Props
+
+This setup script was built referencing ideas from:
+
+- https://github.com/marceloglacial/macos-fresh-install
+- https://medium.com/@maxy_ermayank/developer-environment-setup-script-5fcb7b854acc

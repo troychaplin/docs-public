@@ -27,7 +27,6 @@ echo "Installing dev tools..."
 brew install composer
 brew install git
 brew install node
-brew install node-sass
 brew install yarn
 
 # Browsers
