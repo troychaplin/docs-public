@@ -8,13 +8,12 @@ Don't be dumb, backup all this shit before you format or you will regret it.
 
 Don't forget to save/export:
 
-- SSH keys
-- SFTP configs
-- Hosts file (`sudo vi /etc/hosts`) -- maybe not needed but just in case
-- vscode `settiongs.json`
-- Sequel Pro connection exports
+- Enpass export
+- Sequel pro connections
 - Remote desktop connections
-- Enpass
+- SSH keys
+- Transmit connections
+- VS code settings.json
 
 ## Git Push Issues
 
