@@ -8,15 +8,7 @@ gem update
 
 echo "Installing homebrew..."
 /usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install caskroom/cask/brew-cask
-brew tap homebrew/cask-versions
-brew tap homebrew/cask-cask
-brew tap 'homebrew/bundle'
 brew tap 'homebrew/cask'
-brew tap 'homebrew/cask-drivers'
-brew tap 'homebrew/cask-fonts'
-brew tap 'homebrew/core'
-brew tap 'homebrew/services'
 
 echo "Updating homebrew..."
 brew update
@@ -32,8 +24,7 @@ brew install yarn
 # Browsers
 echo "Installing browsers..."
 brew install --cask brave-browser
-# brew install --cask firefox
-# brew cask install cask-versions/firefoxdeveloperedition
+brew install --cask firefox-developer-edition
 
 # Design
 echo "Installing development apps..."
