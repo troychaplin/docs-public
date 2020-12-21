@@ -1,5 +1,8 @@
 !/bin/sh
 
+echo "Insalling xcode..."
+xcode-select — install
+
 echo "Updating gems..."
 gem update
 
