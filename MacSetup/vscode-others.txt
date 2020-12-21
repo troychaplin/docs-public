@@ -1,0 +1,31 @@
+## My Old
+
+aaron-bond.better-comments
+mikestead.dotenv
+pomber.git-file-history
+dbaeumer.jshint
+christian-kohler.npm-intellisense
+zhuangtongfa.material-theme
+techer.open-in-browser
+felixfbecker.php-intellisense
+ikappas.phpcs
+junstyle.php-cs-fixer
+wongjn.php-sniffer
+hex-ci.stylelint-plus
+gruntfuggly.todo-tree
+dbaeumer.vscode-eslint
+wix.vscode-import-cost
+pflannery.vscode-versionlens
+tungvn.wordpress-snippet
+
+## Glacial
+
+mhutchie.git-graph
+bierner.markdown-preview-github-styles
+fabiospampinato.vscode-open-in-finder
+jpoissonnier.vscode-styled-components
+
+## Others
+
+donjayamanne.githistory
+wayou.vscode-todo-highlight
