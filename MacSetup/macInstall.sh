@@ -28,25 +28,33 @@ brew install --cask firefox-developer-edition
 
 # Design
 echo "Installing development apps..."
-brew cask install postman
-brew cask install sequel-pro
-brew cask install sourcetree
-brew cask install transmit
-brew cask install visual-studio-code
+brew install --cask postman
+brew install --cask sequel-pro
+brew install --cask sourcetree
+brew install --cask transmit
+brew install --cask visual-studio-code
 
 # Design
 echo "Installing design apps..."
-brew cask install figma
+brew install --cask figma
 
 # Productivity
 echo "Installing productivity apps..."
-brew cask install cheatsheet
-brew cask install enpass
-brew cask install microsoft-teams
-brew cask install rectangle
-brew cask install spotify
-brew cask install the-unarchiver
+brew install --cask cheatsheet
+brew install --cask enpass
+brew install --cask memory-clean-3
+brew install --cask microsoft-teams
+brew install --cask raindropio
+brew install --cask rectangle
+brew install --cask spotify
+brew install --cask toggl-track
+brew install --cask the-unarchiver
+brew install --cask zoom
+
+# Personal
+echo "Installing personal apps..."
+brew install --cask steam
 
 # VS Code Extensions
 echo "Installing vs code extensions..."
-# cat vscode-extensions.txt | xargs -L1 code --install-extension
+cat vscode-extensions.txt | xargs -L1 code --install-extension
