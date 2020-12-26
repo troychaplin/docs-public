@@ -15,6 +15,10 @@ Don't forget to save/export:
 - Transmit connections
 - VS code settings.json
 
+## Other Installs
+
+- Xcode - `xcode-select --install`
+
 ## VS Code Extensions
 
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -34,15 +38,6 @@ Don't forget to save/export:
 - [WordPress Snippets](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox)
 - [Workspace Switcher](https://marketplace.visualstudio.com/items?itemName=sadesyllas.vscode-workspace-switcher)
 
-## Git Push Issues
-
-```
-git remote -v ; git remote remove origin
-git remote add origin git@github.com:troychaplin79/repo.git
-```
-
-If issues persiste, also run `git push --set-upstream origin master`
-
 ## Resources
 
 - [How to Install Ruby on Mac OS X with RVM](https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/)
@@ -53,3 +48,12 @@ This setup script was built referencing ideas from:
 
 - https://github.com/marceloglacial/macos-fresh-install
 - https://github.com/maxyermayank/developer-mac-setup
+
+## Git Push Issues
+
+```
+git remote -v ; git remote remove origin
+git remote add origin git@github.com:troychaplin79/repo.git
+```
+
+If issues persiste, also run `git push --set-upstream origin master`
