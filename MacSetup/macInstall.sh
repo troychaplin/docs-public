@@ -1,9 +1,3 @@
-echo "Insalling xcode..."
-xcode-select --install
-
-echo "Insalling Oh My ZSH..."
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 echo "Installing homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap 'homebrew/cask'
@@ -12,6 +6,9 @@ brew tap homebrew/cask-versions
 echo "Updating homebrew..."
 brew update
 brew upgrade
+
+echo "Insalling Oh My ZSH..."
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # RVM Manager
 echo "Installing Ruby and avoid editing system verion..."
