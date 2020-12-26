@@ -2,6 +2,10 @@
 
 To execute: save and `chmod +x ./macInstall.sh` then `./macInstall.sh`
 
+## Permission Issue with Gem
+
+`export GEM_HOME="$HOME/.gem"`
+
 ## Backups
 
 Don't be dumb, backup all this shit before you format or you will regret it.
