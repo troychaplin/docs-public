@@ -2,10 +2,6 @@
 
 To execute: save and `chmod +x ./macInstall.sh` then `./macInstall.sh`
 
-## Permission Issue with Gem
-
-`export GEM_HOME="$HOME/.gem"`
-
 ## Backups
 
 Don't be dumb, backup all this shit before you format or you will regret it.
@@ -46,6 +42,10 @@ git remote add origin git@github.com:troychaplin79/repo.git
 ```
 
 If issues persiste, also run `git push --set-upstream origin master`
+
+## Resources
+
+- [How to Install Ruby on Mac OS X with RVM](https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/)
 
 ## Props
 
