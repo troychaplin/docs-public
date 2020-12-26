@@ -4,10 +4,12 @@ echo "Insalling xcode..."
 xcode-select --install
 
 echo "Updating gems..."
-gem update
+# gem update
+gem update --system
 
 echo "Installing homebrew..."
-/usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# /usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap 'homebrew/cask'
 
 echo "Updating homebrew..."
