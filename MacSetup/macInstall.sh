@@ -3,12 +3,7 @@
 echo "Insalling xcode..."
 xcode-select --install
 
-# echo "Updating gems..."
-# gem update
-# gem update --system
-
 echo "Installing homebrew..."
-# /usr/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap 'homebrew/cask'
 
@@ -17,7 +12,7 @@ brew update
 brew upgrade
 
 # RVM Manager
-echo "Installing Ruby..."
+echo "Installing Ruby and avoid editing system verion..."
 brew install gnupg
 gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 \curl -sSL https://get.rvm.io | bash -s stable --ruby
