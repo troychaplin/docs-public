@@ -7,6 +7,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 echo "Installing homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap 'homebrew/cask'
+brew tap homebrew/cask-versions
 
 echo "Updating homebrew..."
 brew update
