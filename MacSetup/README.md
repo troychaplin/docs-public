@@ -19,6 +19,14 @@ Don't forget to save/export:
 
 - Xcode - `xcode-select --install`
 
+- [How to Install Ruby on Mac OS X with RVM](https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/) (see following)
+
+```
+brew install gnupg
+gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+```
+
 ## VS Code Extensions
 
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -37,10 +45,6 @@ Don't forget to save/export:
 - [VS Code Styled Components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [WordPress Snippets](https://marketplace.visualstudio.com/items?itemName=wordpresstoolbox.wordpress-toolbox)
 - [Workspace Switcher](https://marketplace.visualstudio.com/items?itemName=sadesyllas.vscode-workspace-switcher)
-
-## Resources
-
-- [How to Install Ruby on Mac OS X with RVM](https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/)
 
 ## Props
 
