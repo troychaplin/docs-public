@@ -27,7 +27,6 @@ echo "Installing development apps..."
 brew install --cask iterm2
 brew install --cask postman
 brew install --cask sequel-pro
-brew install --cask sourcetree
 brew install --cask transmit
 brew install --cask visual-studio-code
 
