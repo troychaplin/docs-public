@@ -2,6 +2,7 @@ echo "Installing homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap 'homebrew/cask'
 brew tap homebrew/cask-versions
+brew tap homebrew/cask-fonts
 
 echo "Updating homebrew..."
 brew update
@@ -24,6 +25,7 @@ brew install --cask firefox-developer-edition
 
 # Design
 echo "Installing development apps..."
+brew install --cask font-fira-code
 brew install --cask iterm2
 brew install --cask postman
 brew install --cask sequel-pro
