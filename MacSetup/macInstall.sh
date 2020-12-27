@@ -13,7 +13,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # Dev Tools
 echo "Installing dev tools..."
-brew install composer
+brew install composer@1.10.19
 brew install git
 brew install node
 brew install yarn
