@@ -18,7 +18,7 @@ Don't forget to save/export:
 ## Other Installs
 
 - Xcode - `xcode-select --install`
-
+- [Github Desktop](https://desktop.github.com)
 - [How to Install Ruby on Mac OS X with RVM](https://usabilityetc.com/articles/ruby-on-mac-os-x-with-rvm/) (see following)
 
 ```
