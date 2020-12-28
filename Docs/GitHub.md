@@ -1,5 +1,6 @@
-# GitHub Docs
 ## Git Flow
+
+- Configuraion and overview: [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
 
 **Initialize Branch**
 
@@ -22,40 +23,39 @@
 
 - `git flow hotfix start 0.0.0` - create hotfix branch
 - `git flow hotfix finish 0.0.0` - finalize a hotfix
-### Basic Commands
+
+## Git Basics and Branching
+
+**Basic Commands**
 
 - `git status` - get status of current branch
 - `git push` - push commits to remote branch
 - `git pull` - get commits om remote for current branch
 - `git fetch` - get commits on remote but do not merge into current branch
 
-### Browsing Branches
+**Browsing Branches**
 
 - `git branch` - list all local branches
 - `git branch -r` - list all remote branches
 - `git branch -a` - list all local and remote branches
 
-### Basic Branching
+**Basic Branching**
 
 - `git checkout -b BranchName` - create new branch
 - `git push -u origin BranchName` - push local to remote (if it doesn't exist)
 - `git checkout BranchName` - switch to local branch
 - `git checkout --track origin/BranchName` - switch to remote branch
 
-### Merge Branches
+**Merge Branches**
 
 - `git checkout BranchToMergeInto` - switch to branch you are merging into
 - `git merge BranchName` - merge branch into the current branch
 
-### Deleting Branches
+**Deleting Branches**
 
 - `git push origin --delete BranchName` - delete remote branch
 - `git branch -d BranchName` - delete branch (only if already merged)
 - `git branch -D BranchName` - force delete unmerged branch
-
-## Git-Flow Config
-
-- [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
 
 ## Credit
 
