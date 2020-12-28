@@ -1,4 +1,4 @@
-## Git Flow
+# Git Flow
 
 - Configuraion and overview: [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
 
@@ -24,7 +24,7 @@
 - `git flow hotfix start 0.0.0` - create hotfix branch
 - `git flow hotfix finish 0.0.0` - finalize a hotfix
 
-## Git Basics and Branching
+# Git Basics and Branching
 
 **Basic Commands**
 
