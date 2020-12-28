@@ -1,11 +1,7 @@
 ## Git Flow
 
-Configuraion and overview: [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
-
-Where credit is due:
-
-- [Git Branches - Noble Desktop](https://www.nobledesktop.com/learn/git/git-branches)
-- [Git-flow Breakdown - GitHub Gist](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
+- Configuraion and overview: [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
+- Where credit is due: [Git Branches - Noble Desktop](https://www.nobledesktop.com/learn/git/git-branches) and [Git-flow Breakdown - GitHub Gist](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
 
 **Initialize Branch**
 
