@@ -1,11 +1,5 @@
 # GitHub Docs
-### Basic Commands
-
-- `git status` - get status of current branch
-- `git push` - push commits to remote branch
-- `git pull` - get commits om remote for current branch
-- `git fetch` - get commits on remote but do not merge into current branch
-### Git Flow
+## Git Flow
 
 - `git flow init` - initialize the branch
 
@@ -26,6 +20,12 @@
 
 - `git flow hotfix start 0.0.0` - create hotfix branch
 - `git flow hotfix finish 0.0.0` - finalize a hotfix
+### Basic Commands
+
+- `git status` - get status of current branch
+- `git push` - push commits to remote branch
+- `git pull` - get commits om remote for current branch
+- `git fetch` - get commits on remote but do not merge into current branch
 
 ### Browsing Branches
 
