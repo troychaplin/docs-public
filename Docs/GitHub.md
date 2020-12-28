@@ -1,6 +1,8 @@
 # GitHub Docs
 ## Git Flow
 
+**Initialize Branch**
+
 - `git flow init` - initialize the branch
 
 **Feature Branches**
