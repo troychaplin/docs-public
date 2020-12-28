@@ -1,16 +1,16 @@
 # GitHub Docs
 
-Basic Commands
+## Basic Commands
 
 - `git status` - get status of current branch
 
-Browsing Branches
+### Browsing Branches
 
 - `git branch` - list all local branches
 - `git branch -r` - list all remote branches
 - `git branch -a` - list all local and remote branches
 
-Checking Out Branches
+#### Checking Out Branches
 
 - `git checkout -b my-branch-name` - create new branch
 - `git checkout my-branch-name` - switch to local branch
