@@ -6,6 +6,10 @@
 - `git pull` - get commits om remote for current branch
 - `git fetch` - get commits on remote but do not merge into current branch
 
+### Git Flow
+
+- `git flow init` - initialize the branch
+
 ### Browsing Branches
 
 - `git branch` - list all local branches
