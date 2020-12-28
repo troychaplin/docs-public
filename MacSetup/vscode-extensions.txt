@@ -3,6 +3,7 @@ formulahendry.auto-close-tag
 coenraads.bracket-pair-colorizer
 streetsidesoftware.code-spell-checker
 pomber.git-file-history
+mhutchie.git-graph
 eamodio.gitlens
 yzhang.markdown-all-in-one
 bierner.markdown-preview-github-styles
