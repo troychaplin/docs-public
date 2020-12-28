@@ -5,10 +5,16 @@
 - `git push` - push commits to remote branch
 - `git pull` - get commits om remote for current branch
 - `git fetch` - get commits on remote but do not merge into current branch
-
 ### Git Flow
 
 - `git flow init` - initialize the branch
+
+**Feature Branches**
+
+- `git flow feature start MYFEATURE` - create a feature branch
+- `git flow feature publish MYFEATURE` - push feature to remote
+- `git flow feature pull origin MYFEATURE` - pull latest commits from remote
+- `git flow feature finish MYFEATURE` - finalize a feature branch
 
 ### Browsing Branches
 
@@ -18,21 +24,21 @@
 
 ### Basic Branching
 
-- `git checkout -b my-branch-name` - create new branch
-- `git push -u origin my-branch-name` - push local to remote (if it doesn't exist)
-- `git checkout my-branch-name` - switch to local branch
-- `git checkout --track origin/my-branch-name` - switch to remote branch
+- `git checkout -b BranchName` - create new branch
+- `git push -u origin BranchName` - push local to remote (if it doesn't exist)
+- `git checkout BranchName` - switch to local branch
+- `git checkout --track origin/BranchName` - switch to remote branch
 
 ### Merge Branches
 
 - `git checkout BranchToMergeInto` - switch to branch you are merging into
-- `git merge my-branch-name` - merge branch into the current branch
+- `git merge BranchName` - merge branch into the current branch
 
 ### Deleting Branches
 
-- `git push origin --delete my-branch-name` - delete remote branch
-- `git branch -d my-branch-name` - delete branch (only if already merged)
-- `git branch -D my-branch-name` - force delete unmerged branch
+- `git push origin --delete BranchName` - delete remote branch
+- `git branch -d BranchName` - delete branch (only if already merged)
+- `git branch -D BranchName` - force delete unmerged branch
 
 ## Git-Flow Config
 
