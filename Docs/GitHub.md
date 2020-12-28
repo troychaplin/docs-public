@@ -34,6 +34,11 @@
 - `git pull` - get commits om remote for current branch
 - `git fetch` - get commits on remote but do not merge into current branch
 
+**Adding Tags**
+
+- `git tag 0.0.0` - add tag
+- `git push origin --tags` - push all tags
+
 **Browsing Branches**
 
 - `git branch` - list all local branches
