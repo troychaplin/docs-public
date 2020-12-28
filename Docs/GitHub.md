@@ -1,6 +1,11 @@
-# Git Flow
+## Git Flow
 
-- Configuraion and overview: [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
+Configuraion and overview: [Git-flow Cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.html)
+
+Where credit is due:
+
+- [Git Branches - Noble Desktop](https://www.nobledesktop.com/learn/git/git-branches)
+- [Git-flow Breakdown - GitHub Gist](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
 
 **Initialize Branch**
 
@@ -24,7 +29,7 @@
 - `git flow hotfix start 0.0.0` - create hotfix branch
 - `git flow hotfix finish 0.0.0` - finalize a hotfix
 
-# Git Basics and Branching
+## Git Basics and Branching
 
 **Basic Commands**
 
@@ -57,9 +62,3 @@
 - `git branch -d BranchName` - delete branch (only if already merged)
 - `git branch -D BranchName` - force delete unmerged branch
 
-## Credit
-
-Where credit is due.
-
-- [Git Branches - Noble Desktop](https://www.nobledesktop.com/learn/git/git-branches)
-- [Git-flow Breakdown - GitHub Gist](https://gist.github.com/JamesMGreene/cdd0ac49f90c987e45ac)
