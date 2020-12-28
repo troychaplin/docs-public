@@ -9,10 +9,10 @@
 
 **Feature Branches**
 
-- `git flow feature start MYFEATURE` - create a feature branch
-- `git flow feature publish MYFEATURE` - push feature to remote
-- `git flow feature pull origin MYFEATURE` - pull latest commits from remote
-- `git flow feature finish MYFEATURE` - finalize a feature
+- `git flow feature start FeatureBranchName` - create a feature branch
+- `git flow feature publish FeatureBranchName` - push feature to remote
+- `git flow feature pull origin FeatureBranchName` - pull latest commits from remote
+- `git flow feature finish FeatureBranchName` - finalize a feature
 
 **Releases Branches**
 
