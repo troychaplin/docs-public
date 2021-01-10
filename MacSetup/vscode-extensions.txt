@@ -9,6 +9,7 @@ yzhang.markdown-all-in-one
 bierner.markdown-preview-github-styles
 zhuangtongfa.material-theme
 esbenp.prettier-vscode
+gruntfuggly.todo-tree
 jpoissonnier.vscode-styled-components
 wayou.vscode-todo-highlight
 wix.vscode-import-cost
