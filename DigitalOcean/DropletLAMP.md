@@ -14,6 +14,7 @@
 
 ## Libraries
 
+- [Install WP-CLI on Ubuntu 18.04](https://www.linode.com/docs/guides/install-wordpress-using-wp-cli-on-ubuntu-18-04/)
 - [How To Install PHP Composer on Ubuntu 18.04 & 16.04](https://tecadmin.net/install-php-composer-on-ubuntu/)
 - [How To Install and Configure Postfix on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-18-04)
 
