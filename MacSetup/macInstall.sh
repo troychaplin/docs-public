@@ -23,6 +23,7 @@ brew install yarn
 echo "Installing browsers..."
 brew install --cask brave-browser
 brew install --cask firefox-developer-edition
+brew install --cask microsoft-edge
 
 # Design
 echo "Installing development apps..."
