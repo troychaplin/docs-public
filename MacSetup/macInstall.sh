@@ -19,6 +19,8 @@ brew install git-flow-avh
 brew install node
 brew install yarn
 
+# brew install --cask adoptopenjdk8 # -- Java
+
 # Browsers
 echo "Installing browsers..."
 brew install --cask brave-browser
