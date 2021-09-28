@@ -52,8 +52,8 @@ Inside the file, create some basic markup for testing.
 Create and edit new server block file
 
 ```
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/{{DOMAIN_NAME}}
-sudo nano /etc/nginx/sites-available/{{DOMAIN_NAME}}
+sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/{{DOMAIN_NAME}}
+sudo nano /etc/apache2/sites-available/{{DOMAIN_NAME}}
 ```
 
 Things to update:
