@@ -11,6 +11,9 @@ brew upgrade
 echo "Insalling Oh My ZSH..."
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+echo "Support old shit...?"
+sudo softwareupdate --install-rosetta
+
 # Dev Tools
 echo "Installing dev tools..."
 brew install composer
