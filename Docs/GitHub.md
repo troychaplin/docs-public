@@ -63,3 +63,11 @@
 - `git branch -d BranchName` - delete branch (only if already merged)
 - `git branch -D BranchName` - force delete unmerged branch
 
+## Git Push Issues
+
+```
+git remote -v ; git remote remove origin
+git remote add origin git@github.com:troychaplin79/repo.git
+```
+
+If issues persiste, also run `git push --set-upstream origin master`
