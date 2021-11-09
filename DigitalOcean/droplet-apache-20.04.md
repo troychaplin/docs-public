@@ -1,10 +1,10 @@
 # DigitalOcean Droplet Setup
 
-# Base Configuration
+## Base Configuration
 
 - [Initial Server Setup with Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04)
 
-# LAMP Environment
+## LAMP Environment
 
 **Note:** skip `MySQL` installation section from the first doc and install `MariaDB` using the second doc:
 
