@@ -17,19 +17,24 @@ sudo softwareupdate --install-rosetta
 # Dev Tools
 echo "Installing dev tools..."
 brew install composer
-brew install git
-brew install git-flow-avh
 brew install node
 brew install yarn
+brew install git
+brew install git-flow
+# brew install git-flow-avh
+brew install --cask fig
 
 # Browsers
 echo "Installing browsers..."
 brew install --cask brave-browser
+brew install --cask firefox-developer-edition
+
 
 # Design
 echo "Installing development apps..."
 brew install --cask font-fira-code
-brew install --cask iterm2
+# brew install --cask iterm2
+brew install --cask warp
 brew install --cask postman
 brew install --cask sequel-pro
 brew install --cask transmit
@@ -55,5 +60,5 @@ echo "Installing personal apps..."
 brew install --cask steam
 
 # VS Code Extensions
-echo "Installing vs code extensions..."
-cat vscode-extensions.txt | xargs -L1 code --install-extension
+# echo "Installing vs code extensions..."
+# cat vscode-extensions.txt | xargs -L1 code --install-extension
