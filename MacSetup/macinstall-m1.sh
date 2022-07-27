@@ -21,9 +21,13 @@ brew install git
 brew install git-flow
 brew install node
 brew install nvm
+brew install php
+brew install php-code-sniffer
 brew install yarn
-brew install --cask fig
-brew install --cask font-fira-code
+brew install --cask xquartz
+
+# PHP Standards
+# phpcs --config-set default_standard PSR2
 
 # Browsers
 echo "Installing work apps..."
@@ -38,10 +42,11 @@ brew install --cask transmit
 brew install --cask visual-studio-code
 brew install --cask warp
 
-
 # Design
-echo "Installing other apps..."
+echo "Installing others..."
 brew install --cask 1password
+brew install --cask fig
+brew install --cask font-fira-code
 brew install --cask memory-clean-3
 brew install --cask rectangle
 brew install --cask steam
