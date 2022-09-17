@@ -73,6 +73,12 @@ git remote add origin <Repository_Location>
 git push --set-upstream origin master
 ```
 
+## Prune list of remote branches
+
+```
+git remote update origin --prune
+```
+
 ## Git Push Issues
 
 ```
