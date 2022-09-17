@@ -23,7 +23,7 @@
 -   `git checkout -b BranchName` - create new branch
 -   `git push -u origin BranchName` - push local to remote (if it doesn't exist)
 -   `git checkout BranchName` - switch to local branch
--   `git checkout --track origin/BranchName` - switch to remote branch
+-   `git branch -m` - Rename branch
 
 **Merge Branches**
 
