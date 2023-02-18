@@ -1,4 +1,16 @@
-## Git Basics and Branching
+## Init Local Folder
+
+```
+git init
+git branch -m main
+git add .
+git commit -m "Initial commit message"
+git remote add origin <AddRemoteURL>
+git remote -v
+git push origin main
+```
+
+## Basics and Branching
 
 **Basic Commands**
 
