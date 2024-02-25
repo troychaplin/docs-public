@@ -14,9 +14,6 @@ brew upgrade # will upgrade any outdated packages
 echo "Adding some ZHS to the brew"
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# echo "A homebrew throwback"
-sudo softwareupdate --install-rosetta
-
 # Browsers & More
 echo "Adding the main ingredients"
 brew install --cask brave-browser
@@ -37,19 +34,10 @@ brew install --cask warp
 echo "Toss in some supporting flavs"
 brew install composer
 brew install git
-# brew install git-flow
-# brew install git-flow-avh
 brew install node
 brew install nvm
 brew install php
-# brew install php-code-sniffer
-brew install wp-cli
 brew install yarn
-# brew install --cask xquartz
-
-# Set PHP Standards
-brew install php-code-sniffer
-phpcs --config-set default_standard PSR2
 
 # More Stuff
 echo "And now the finishing touches"
@@ -60,9 +48,6 @@ brew install --cask memory-clean-3
 brew install --cask raindropio
 brew install --cask rectangle
 brew install --cask tableplus
-# brew install --cask steam
-# brew install --cask the-unarchiver
-# brew install --cask zoom
 
 mkdir ~/.nvm
 

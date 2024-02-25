@@ -1,3 +1,9 @@
+# Mac Config
+
+To become a set of dot files
+
+- https://github.com/webpro/awesome-dotfiles
+
 # Homebrew Script for OSX
 
 To execute: save and `chmod +x ./macInstall.sh` then `./macInstall.sh`
