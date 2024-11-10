@@ -12,6 +12,17 @@ brew tap homebrew/cask-fonts
 echo "Running Brewfile to install packages..."
 brew bundle --file="./Brewfile"
 
+# Install Xcode Command Line Tools
+echo "Installing Xcode Command Line Tools..."
+xcode-select --install
+
+# Optional: Install full Xcode through Homebrew (for additional macOS/iOS development tools)
+read -p "Do you want to install the full Xcode app? (y/n) " install_xcode
+if [[ $install_xcode == "y" ]]; then
+    echo "Installing Xcode..."
+    brew install --cask xcode
+fi
+
 # Optional: Install Rosetta for compatibility with Intel-based applications
 echo "Installing Rosetta..."
 sudo softwareupdate --install-rosetta --agree-to-license
