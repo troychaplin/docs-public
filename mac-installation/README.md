@@ -1,23 +1,33 @@
 # Mac Config
 
+To execute:
+
+```
+chmod +x mac-install.sh
+./mac-install.sh
+```
+
+## Switching Coding Standards
+
+- Check Active standard: `phpcs --config-show`
+- Use PSR2 Standard: `phpcs --config-set default_standard PSR2`
+- Use WordPress Standard: `phpcs --config-set default_standard WordPress`
+
+## Final Review
+
+Before you format don't forget to backup key elements such as:
+
+- SSH keys and other dot files
+- Database app connection details
+- Transmit connections
+
+## Followup Notes
+
 To become a set of dot files
 
 - https://github.com/webpro/awesome-dotfiles
 
-# Homebrew Script for OSX
-
-To execute: save and `chmod +x ./macInstall.sh` then `./macInstall.sh`
-
-## Backups
-
-Don't be dumb, backup all this shit before you format or you will regret it.
-
-Don't forget to save/export:
-
-- SSH keys
-- Sequel pro connections
-- Transmit connections
-- Remote desktop connections
+---
 
 ## Other Installs
 
