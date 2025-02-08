@@ -10,22 +10,59 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+install_cask() {
+    if brew list --cask "$1" &>/dev/null; then
+        echo "$1 is already installed. Skipping..."
+    else
+        brew install --cask "$1"
+    fi
+}
+
+install_brew() {
+    if brew list "$1" &>/dev/null; then
+        echo "$1 is already installed. Skipping..."
+    else
+        brew install "$1"
+    fi
+}
+
 echo "Installing essential applications..."
-brew install --cask brave-browser docker figma firefox@developer-edition google-chrome microsoft-edge postman tableplus visual-studio-code warp
+install_cask brave-browser
+install_cask docker
+install_cask figma
+install_cask firefox@developer-edition
+install_cask google-chrome
+install_cask microsoft-edge
+install_cask postman
+install_cask tableplus
+install_cask visual-studio-code
+# install_cask warp
 
 echo "Installing developer tools..."
-brew install composer git node nvm php php-code-sniffer wp-cli yarn
+install_brew composer
+install_brew git
+install_brew node
+install_brew nvm
+install_brew php
+install_brew php-code-sniffer
+install_brew wp-cli
+install_brew yarn
 
 echo "Installing productivity tools..."
-brew install --cask 1password font-fira-code memory-clean-3 raindropio rectangle slack zoom
+install_cask 1password
+install_cask font-fira-code
+install_cask memory-clean-3
+install_cask raindropio
+install_cask rectangle
+install_cask slack
+install_cask zoom
 
 echo "Installing Xcode Command Line Tools..."
 xcode-select --install
 
 read -p "Do you want to install the full Xcode app? (y/n) " install_xcode
 if [[ $install_xcode == "y" ]]; then
-    echo "Installing Xcode..."
-    brew install --cask xcode
+    install_cask xcode
 fi
 
 echo "Installing Rosetta..."
