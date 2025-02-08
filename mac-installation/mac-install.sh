@@ -42,11 +42,13 @@ echo "Installing developer tools..."
 install_brew composer
 install_brew git
 install_brew node
-install_brew nvm
 install_brew php
 install_brew php-code-sniffer
 install_brew wp-cli
 install_brew yarn
+
+echo "Installing nvm..."
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 echo "Installing productivity tools..."
 install_cask 1password
@@ -92,7 +94,20 @@ echo "alias phpcs-psr2='phpcs --standard=PSR2'" >> ~/.zshrc
 echo "alias phpcs-wp='phpcs --standard=WordPress'" >> ~/.zshrc
 phpcs --config-set default_standard PSR2
 
+# Add nvm initialization to .zshrc
+echo 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"' >> ~/.zshrc
+echo '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> ~/.zshrc
+echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"' >> ~/.zshrc
+
+# Source the .zshrc file to apply changes
 source ~/.zshrc
+
+# Verify nvm installation
+if command -v nvm &> /dev/null; then
+    echo "nvm is installed and initialized successfully."
+else
+    echo "nvm installation or initialization failed."
+fi
 
 echo "macOS setup complete! 🎉"
 echo "Reminder: Sync dotfiles and set up any additional configurations as needed."
