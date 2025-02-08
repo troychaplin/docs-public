@@ -2,7 +2,7 @@
 
 To execute:
 
-```
+```sh
 chmod +x mac-install.sh
 ./mac-install.sh
 ```
