@@ -39,6 +39,7 @@ install_cask tableplus
 install_cask transmit
 install_cask visual-studio-code
 install_cask warp
+install_cask wordpresscom-studio
 
 echo "Installing developer tools..."
 install_brew composer
